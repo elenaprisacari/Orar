@@ -1,9 +1,10 @@
 body{
     background-image: url("../img/1200px-USB_Alecu_Russo_-_Rectorat.jpg");
+    background-color: rgba(240, 240, 240, 0.486);;
+    background-blend-mode: color;
    background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: auto;
     margin: 0px;
-    background-color: rgba(0, 127, 212, 0.3);
 }
