@@ -1,10 +1,68 @@
 body{
     background-image: url("../img/1200px-USB_Alecu_Russo_-_Rectorat.jpg");
-    background-color: rgba(240, 240, 240, 0.486);;
+    background-color: rgba(240, 240, 240, 0.486);
     background-blend-mode: color;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
-    width: 100%;
-    height: auto;
-    margin: 0px;
+    background-size: cover;
 }
+    .t1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .text{
+        grid-column-start: 1;
+        background-color: white;
+        width: 400px;
+        height:60px;
+        justify-self: center;
+        align-self: center;
+        margin-top: 20px;
+        
+    }
+    .img{
+        grid-column-start: 2;
+        justify-self: center;
+        align-self: center;
+
+    }
+    .background{
+        color:gray;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align:center;
+    }
+    .t2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 6fr;
+    
+    }
+    .h2{
+        grid-column-start: 1;
+        background-color:#25975A;
+        width: 100px;
+        height:40px;
+        justify-self: center;
+        align-self: center;
+    }
+    .h3{
+        grid-column-start: 2;
+        background-color:#25975A;
+        width: 100px;
+        height:40px;
+        justify-self: center;
+        align-self: center;
+    
+    }
+    .h4{
+        grid-column-start: 3;
+        background-color:#25975A;
+        width: 100px;
+        height:40px;
+        justify-self: center;
+        align-self: center;
+        
+    }
+    
