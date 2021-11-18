@@ -19,6 +19,11 @@ body{
         justify-self: center;
         align-self: center;
         margin-top: 20px;
+        color:gray;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align:center;
         
     }
     .img{
@@ -46,6 +51,11 @@ body{
         height:40px;
         justify-self: center;
         align-self: center;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-align:center;
     }
     .h3{
         grid-column-start: 2;
@@ -54,6 +64,11 @@ body{
         height:40px;
         justify-self: center;
         align-self: center;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-align:center;
     
     }
     .h4{
@@ -63,6 +78,11 @@ body{
         height:40px;
         justify-self: center;
         align-self: center;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-align:center;
         
     }
     
